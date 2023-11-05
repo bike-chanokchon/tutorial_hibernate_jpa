@@ -1,0 +1,16 @@
+
+    JPA lecture
+
+    :: JDBC
+        - สิ่งที่ใช้เชื่อมต่อระหว่าง Java Programe กับ Database
+        - เขียนจัดการข้อมูลด้วยภาษา SQL
+        - มีข้อเสียตรงที่ดูแลรักษายาก ทำให้เกิด JPA ขึ้นมา
+
+    :: Java Persitence API (JPA)
+        - ทำหน้าที่ Map ข้อมูลระหว่าง Database กับ Class ในภาษา Java
+        - ไม่จำเป็นต้องเขียน SQL เองเพราะมี Function ให้ใช้งานแล้ว
+        - Class ที่เป็นตัวแทนของ Table เรียกว่า Entity
+
+    :: JPA Annotation
+        - @Entity
+        ทำให้ Class ที่มี annotation นี้จะถูกนำไปสร้างเป็น table ในฐานข้อมูล
